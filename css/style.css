@@ -80,6 +80,10 @@ h2 {
   font-weight: normal;
 }
 
+h2.My-Titles {
+    padding-bottom: 350px;
+}
+
 h3 {
   color: rgb(34, 40, 49);
   font-family: 'Montserrat', sans-serif;
@@ -150,7 +154,12 @@ p {
 }
 
 .top-container #header-mountain {
-  margin-bottom: 0;
+  position: absolute;
+  bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
 }
 
 .top-container #left-header-cloud {
